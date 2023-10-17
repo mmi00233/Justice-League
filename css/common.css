@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* font-size : 10px; */
+html { font-size: 62.5%; scroll-behavior: smooth;} /* (10 / 16) * 100 */
+
+/* 여백초기화 */
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+/* 테이블 중첩여부지정, 가로 크기 100% */
+table {width: 100%; border-collapse: collapse;}
+
+/* 목록 요소에 숫자, 불릿 기호 없애기 */
+ol, ul {list-style: none;}
+
+/* 링크에 밑줄 없애기, 글자색 기본색 지정 */
+a {text-decoration: none; color: #000;}
+
+/* 글자 기울임 설정 */
+address {font-style: normal;}
+
+/* 바같테두리 없애기 */
+fieldset, input, textarea, select {outline: none; border: 0; vertical-align: middle;}
+/* select 태그 화살표 없애기 appearance: none; */
+/* vertical-align 세로정렬 맞추기 : form태그에서만 사용할 수 있다.  */
+
+legend {display: none;}
+

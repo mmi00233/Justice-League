@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'JUSTICE LEAGUE';
+    src: local('JUSTICE LEAGUE'), url(../font/JUSTICE\ LEAGUE.woff) format('woff');
+    font-style: normal;
+    font-weight: 400;
+    /* src: local('JUSTICE LEAGUE'), url('https://fonts.cdnfonts.com/s/20366/JUSTICE LEAGUE.woff') format('woff') */
+}
